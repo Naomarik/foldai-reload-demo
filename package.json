@@ -1,0 +1,17 @@
+{
+  "name": "foldai-reload-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny page that reloads itself over a websocket when its source files change.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
